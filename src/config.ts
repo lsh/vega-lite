@@ -109,6 +109,10 @@ export type FontSizeConfig = Record<string, number>;
 
 export interface VLOnlyConfig<ES extends ExprRef | SignalRef> {
   /**
+   * A new field because the more fields the merrier.
+   */
+  newField?: string;
+  /**
    * Default font for all text marks, titles, and labels.
    */
   font?: string;
